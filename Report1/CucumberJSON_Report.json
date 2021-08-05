@@ -1,0 +1,374 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User want to Login the adactin application",
+        "description": "",
+        "id": "user-want-to-book-the-hotel-room;user-want-to-login-the-adactin-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2699850188,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch the application",
+            "match": {
+              "location": "Stepdefinition.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 87849818,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter the \"ShallowDurga\" username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ShallowDurga",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74613627,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter the \"74108520\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "74108520",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 825183005,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User valid the username and password",
+            "match": {
+              "location": "Stepdefinition.user_valid_the_username_and_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "User want to search hotel",
+        "description": "",
+        "id": "user-want-to-book-the-hotel-room;user-want-to-search-hotel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 123961272,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user select location",
+            "match": {
+              "location": "Stepdefinition.user_select_location()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100833159,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user select the hotels",
+            "match": {
+              "location": "Stepdefinition.user_select_the_hotels()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88763560,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user select the roomtype",
+            "match": {
+              "location": "Stepdefinition.user_select_the_roomtype()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86751026,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User select no of rooms",
+            "match": {
+              "location": "Stepdefinition.user_select_no_of_rooms()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103456201,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User select checkInDate",
+            "match": {
+              "location": "Stepdefinition.user_select_checkInDate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 96086555,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User select checkOutDate",
+            "match": {
+              "location": "Stepdefinition.user_select_checkOutDate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53156250,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User select no of adults",
+            "match": {
+              "location": "Stepdefinition.user_select_no_of_adults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53045531,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user select child per room",
+            "match": {
+              "location": "Stepdefinition.user_select_child_per_room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 566657264,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User want to search",
+            "match": {
+              "location": "Stepdefinition.user_want_to_search()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "User want to select Hotel",
+        "description": "",
+        "id": "user-want-to-book-the-hotel-room;user-want-to-select-hotel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 66974025,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user select Hotel",
+            "match": {
+              "location": "Stepdefinition.user_select_Hotel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 561619867,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User submit",
+            "match": {
+              "location": "Stepdefinition.user_submit()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "User book a hotel",
+        "description": "",
+        "id": "user-want-to-book-the-hotel-room;user-book-a-hotel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 73662875,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user enter a firstname",
+            "match": {
+              "location": "Stepdefinition.user_enter_a_firstname()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61248368,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user enter a lastname",
+            "match": {
+              "location": "Stepdefinition.user_enter_a_lastname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77420785,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user enter a billing address",
+            "match": {
+              "location": "Stepdefinition.user_enter_a_billing_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118020707,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user enter a credit card num",
+            "match": {
+              "location": "Stepdefinition.user_enter_a_credit_card_num()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144918238,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user choose a credit card type",
+            "match": {
+              "location": "Stepdefinition.user_choose_a_credit_card_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121639908,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user choose a credit card month",
+            "match": {
+              "location": "Stepdefinition.user_choose_a_credit_card_month()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83683555,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user enter card year",
+            "match": {
+              "location": "Stepdefinition.user_enter_card_year()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56543749,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user enter card cvv",
+            "match": {
+              "location": "Stepdefinition.user_enter_card_cvv()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51282737,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user select the booknow",
+            "match": {
+              "location": "Stepdefinition.user_select_the_booknow()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "User checking Booking confirmation",
+        "description": "",
+        "id": "user-want-to-book-the-hotel-room;user-checking-booking-confirmation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 529170843,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user select exit",
+            "match": {
+              "location": "Stepdefinition.user_select_exit()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "User want to book the Hotel Room",
+    "description": "",
+    "id": "user-want-to-book-the-hotel-room",
+    "keyword": "Feature",
+    "uri": "Adactin.feature"
+  }
+]
